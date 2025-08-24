@@ -1,0 +1,21 @@
+.yi-social-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.btn-soft {
+  border-radius: 12px !important;
+  border: 1px solid var(--yi-border) !important;
+  /* background: #fff !important; */
+  color: var(--yi-muted);
+  font-weight: 600;
+  padding: 12px 14px;
+  transition: transform .15s ease, box-shadow .2s ease;
+  text-decoration: none;
+}
+
+.btn-soft:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.08);
+}

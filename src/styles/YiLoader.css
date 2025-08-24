@@ -1,0 +1,101 @@
+body{
+  background-color: #000;    
+}
+.yi-loader {
+  background-color: #000;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: 89vh;
+}
+.statements{
+  align-self: center;
+  font-size: x-large;
+}
+.yi-logo {
+  display: flex;
+  font-weight: bold;
+  align-items: flex-start;
+  max-height: 15vh;
+}
+
+.yi-y {
+  color: white;
+  line-height: 1;
+  font-size: 7rem;
+}
+
+.yi-i {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 20px;
+  height: 110px;
+  margin-left: 10px;
+  /* background-color: red; */
+}
+
+.flag-stripe {
+  height: 2vh;
+  /* flex: 1; */
+  width: 100%;
+}
+
+.orange {
+  background-color: #f47b20;
+}
+
+.white {
+  background-color: white;
+}
+
+.green {
+  background-color: #009739;
+}
+
+.yi-text {
+  font-size: 36px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.yi-bottom {
+  display: flex;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.bottom-block {
+  padding: 10px 20px;
+  color: white;
+}
+
+.bottom-block.orange {
+  background-color: #f47b20;
+}
+
+.bottom-block.green {
+  background-color: #009739;
+}
+.whitebase{
+    background-color: white;
+    height: 7vh;
+}
+
+@media screen and (max-width:768px){
+
+    .yi-logo {
+      max-height: 13vh;
+    }
+    .yi-i {
+    height: 110px;
+    }
+    .flag-stripe {
+    height: 1.5vh;
+    }
+}

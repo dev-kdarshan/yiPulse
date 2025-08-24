@@ -1,0 +1,16 @@
+.yi-cta {
+  padding: 12px;
+}
+
+.btn-cta {
+  border-radius: 14px !important;
+  font-weight: 700;
+  padding: 14px 16px;
+  border: none !important;
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+
+.btn-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 26px rgba(0,0,0,.12);
+}

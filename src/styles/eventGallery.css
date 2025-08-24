@@ -1,0 +1,22 @@
+.carousel {
+  overflow: hidden;
+  /* background-color: yellow; */
+  max-height: 55vh;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--yi-border);
+  box-shadow: var(--yi-shadow);   
+  object-fit: cover;  
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+}
+
+@media screen and (max-width: 1036px) {
+  .carousel{
+    height: fit-content;
+  }
+  
+}

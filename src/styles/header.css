@@ -1,0 +1,37 @@
+.yi-header {
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.yi-logo-home {
+  height: 12rem;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,.08));
+}
+
+.yi-tagline {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+.yi-tagline a{
+  color: var(--yi-muted);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+  .yi-header {
+    padding: 20px 16px;
+    text-align: center;
+  }
+  .yi-logo-home {
+    height: 84px;
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,.08));
+  }
+  .yi-tagline {
+    margin-top: 10px;
+    font-size: 0.95rem;
+  }
+  .yi-tagline a{
+    color: var(--yi-muted);
+    text-decoration: none;
+  }
+}
