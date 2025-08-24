@@ -1,9 +1,11 @@
 # Yi Pulse
 
+
 **Yi Pulse** is a dynamic, responsive, and centralized portal built for **Young Indians (Yi), KBTCOE** to streamline event announcements, gallery updates, social handles, and membership access — all from a single interactive platform.
 
 The system is powered by **Google Sheets** as a lightweight headless CMS, eliminating the need for a backend and allowing real-time content updates without touching the codebase.
 
+[live link](https://yipulse.netlify.app/)  
 ---
 
 ##  Features
